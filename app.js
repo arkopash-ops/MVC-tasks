@@ -5,6 +5,8 @@ const app = express();
 app.use(express.json());
 app.set('view engine', 'ejs');
 
+app.use(express.urlencoded({ extended: true }));
+
 const PORT = 5000;
 
 mongoose.connect("mongodb://localhost:27017/task-manager")
