@@ -6,7 +6,6 @@ A simple Task Manager application built using Node.js, Express, MongoDB, and EJS
 
 - Create tasks
 - View all tasks
-- Update tasks
 - Delete tasks
 - MVC folder structure
 - MongoDB database integration
@@ -18,7 +17,6 @@ A simple Task Manager application built using Node.js, Express, MongoDB, and EJS
 - MongoDB
 - Mongoose
 - EJS
-- Body-parser
 
 ## Project Structure
 
@@ -34,9 +32,6 @@ mvc-task-manager/
 │   └── task.controller.js
 ├── routes/
 │   └── task.route.js
-├── public/
-│   └── css/
-│       └── styles.css
 ├── node_modules/
 ├── app.js
 ├── package.json
