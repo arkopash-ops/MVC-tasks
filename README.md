@@ -49,7 +49,7 @@ mvc-task-manager/
 1. Clone the repository
 
 ```bash
-git clone <[repository]([https://github.com/arkopash-ops/MVC-tasks](https://github.com/arkopash-ops/MVC-tasks.git))>
+git clone https://github.com/arkopash-ops/MVC-tasks.git
 cd mvc-task-manager
 ```
 
@@ -76,7 +76,7 @@ npx nodemon app.js
 5. Open in browser
 
 ```
-[text](http://localhost:5000)
+http://localhost:5000
 ```
 
 ## MVC Architecture Overview
